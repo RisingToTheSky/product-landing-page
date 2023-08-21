@@ -38,4 +38,20 @@ li a{
 }
 
 /*Quote section*/
-
+.quote-section{
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote-section p{
+    font-size: 36px;
+    font-style: italic;
+}
+.quote-section h4{
+    display: flex;
+    justify-content: flex-end;
+}
+.quote{
+    padding: 100px 250px 100px 250px;
+}
