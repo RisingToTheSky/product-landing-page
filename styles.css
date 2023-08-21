@@ -90,6 +90,34 @@ a{
     margin-top: -700px;
     justify-content: flex-end;
 }
+
+/*Random info section*/
+.information-section{
+    background-color: white;
+    text-align: center;
+}
+.information-section h2{
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 32px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 100px 200px 100px;
+}
+.info-text{
+    margin-top: 13em;
+    max-width: 150px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
 /*Quote section*/
 .quote-section{
     background-color: #e5e7eb;
