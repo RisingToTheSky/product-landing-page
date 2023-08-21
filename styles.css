@@ -13,29 +13,46 @@ body{
 .body{
     flex: 1 0 auto;
 }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
 /*Top section*/
 
-.header h3{
+.logo{
     font-size: 24px;
     color: #f9faf8;
-}
-.header{
-    padding: 16px;
     display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     margin-left: 150px;
 }
-.nav-bar{
+.navbar{
     display: flex;
-    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
 }
-li a{
+.nav-links{
     font-size: 18px;
+    margin-right: 150px;
+    gap: 50px;
+}
+.nav-links a{
     color: #e5e7eb;
     text-decoration: none;
 }
 .top-section{
     background-color: #1F2937;
+    padding: 16px;
+}
+.hero{
+    display: flex;
 }
 .hero h1{
     font-size: 48px;
@@ -80,7 +97,6 @@ li a{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-end;
 }
 .call-to-action-box > button{
     color: #f9faf8;
@@ -90,7 +106,7 @@ li a{
     border: 1px solid white;
     border-radius: 5px;
     background-color: #3882f6;
-    align-self: center;
+    align-self: flex-end;
 }
 button:hover{
    cursor: pointer; 
