@@ -161,12 +161,14 @@ a{
 }
 .button{
     color: #f9faf8;
-    font-weight: 400px;
+    font-weight: bold;
     font-size: 18px;
     padding: 10px 32px;
-    border: 1px solid white;
-    border-radius: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
     background-color: #3882f6;
+    position: absolute;
+    margin-left: 700px;
 }
 button:hover{
     cursor: pointer; 
